@@ -1,0 +1,91 @@
+.banner {
+  background-image: url('https://source.unsplash.com/random');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  margin: 0, 0;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.banner-description {
+  width: 700px;
+  margin: 50px auto;
+}
+.banner p {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h2 {
+  font-weight: normal;
+  color: rgb(160,160,160);
+  font-size: 30px;
+
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container p {
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  font-style: italic;
+  background-color: #e9fcf0;
+  color: rgb(80, 80, 80);
+  font-size: 28px;
+  padding: 3px 0px;
+}
+
+.container a:hover {
+  background-color: #81f0b4;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+
+  .banner-description {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+
+  .banner-description {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+
+  .banner-description {
+    width: 300px;
+  }
+}
